@@ -1077,32 +1077,28 @@ setting_infos = [
             'Dungeons Only':
             Shuffle dungeon entrances with each other, including Bottom 
             of the Well, Ice Cavern, and Gerudo Training Grounds. 
-            However, Ganon's Castle is not shuffled.
+            Ganon's Castle is not shuffled.
+            Master Quest dungeons are not supported yet - coming soon!
+            
+            The entrances for Deku Tree, Fire Temple, and Bottom of the Well
+            are accessable for both child and adult. It is in logic to access
+            Fire Temple via Bolero as child, regardless of tunic settings.
 
-            Additionally, the entrances of Deku Tree, Fire Temple and 
-            Bottom of the Well are opened for both adult and child to 
-            improve randomization, and accessing the Fire Temple from 
-            Bolero is always in logic for child regardless of Tunic settings.
-
-            Blue warps will return link to the new dungeons entrance. 
+            Blue warps will return Link to the dungeon's new entrance
             Lake Hylia will be filled for adult after defeating Morpha.
 
-            Master Quest dungeons are not supported yet, coming soon!
-
             'All Indoors':
-            Shuffle dungeon entrances along with grotto and interior 
-            entrances as described below. All entrances are still only 
-            shuffled within their own pool. This means, for example, 
-            that dungeons are only shuffled with other dungeons.
+            Shuffles dungeon entrances, grottos, and interior entrances.
+            Each entrance is only shuffles within its own pool (e.g. dungeon
+            entrances are all shuffled together)
+            Grottos include all generic grottos, small fairy fountains, and
+            the Lost Woods Stage.
 
-            Grottos: All grottos in the game including small Fairy Fountains 
-            and the Lost Woods Stage.
-
-            Interiors: All Houses and Great Fairies in the game.
-            For now, this excludes Richard's house, the Windmill, the 
-            Kakariko Potion Shop, Link's House and Temple of Time.
+            Interior entrances include all Houses and Great Fairies in the game,
+            and excludes Richard's house, the Windmill, the Kakariko Potion Shop,
+            Link's House, and The Temple of Time.
             Adult trade quest timers are disabled when shuffling this pool,
-            and it forces Skip Tower Escape Sequence to be enabled for now.
+            and it forces 'Skip Tower Escape Sequence' to be enabled for now.
         ''',
         shared         = True,
         gui_params     = {
