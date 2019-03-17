@@ -1081,7 +1081,7 @@ setting_infos = [
             Master Quest dungeons are not supported yet - coming soon!
             
             The entrances for Deku Tree, Fire Temple, and Bottom of the Well
-            are accessable for both child and adult. It is in logic to access
+            are accessible for both child and adult. It is in logic to access
             Fire Temple via Bolero as child, regardless of tunic settings.
 
             Blue warps will return Link to the dungeon's new entrance
